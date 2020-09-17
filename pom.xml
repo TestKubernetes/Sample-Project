@@ -9,6 +9,12 @@
     <artifactId>java_eclipse</artifactId>
     <version>1.0</version>
     
+    <plugin>
+    <inherited>true</inherited>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>              
+    </plugin>
+         
 
     <dependencies>
         <dependency>
